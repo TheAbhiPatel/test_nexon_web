@@ -9,11 +9,14 @@
     style="
       background: #f6f6f6;
       margin-top: 0;
+      margin-bottom: 0;
       max-width: 1250px;
       margin-inline: auto;
       position: relative;
+      font-family: sans-serif;
     "
   >
+    <!--  header component -->
     <div
       style="
         background: #302563;
@@ -56,12 +59,10 @@
             alt=""
             style="width: 12rem; margin-bottom: 2rem"
           />
-          <h1 style="color: white; font-family: sans-serif">
-            Phoenix | March 3-6
-          </h1>
+          <h1 style="color: white">Phoenix | March 3-6</h1>
         </div>
         <div>
-          <div
+          <button
             style="
               background: red;
               height: 4rem;
@@ -71,17 +72,165 @@
               align-items: center;
               color: white;
               font-weight: 600;
-              font-family: sans-serif;
               cursor: pointer;
               border-radius: 5px;
               font-size: 1rem;
               margin-bottom: 5rem;
               z-index: 2;
+              margin-top: 5rem;
+              outline: none;
+              border: none;
             "
           >
             REGISTER NOW
-          </div>
+          </button>
         </div>
+      </div>
+    </div>
+    <!-- body component -->
+    <div style="padding-left: 10rem; padding-right: 10rem; margin-top: 5rem">
+      <!--  You need a break component -->
+      <div>
+        <h2 style="font-size: 2rem; margin-bottom: 2.5rem; font-weight: 800">
+          You need a break
+        </h2>
+        <div
+          style="
+            width: 100%;
+            height: 25rem;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <div
+            style="
+              width: 2rem;
+              height: 2rem;
+              background: white;
+              clip-path: polygon(100% 50%, 0 0, 0 100%);
+            "
+          ></div>
+        </div>
+      </div>
+      <!--  [Name] and Paragraph component -->
+      <div>
+        <p style="font-size: 1.5rem">[Name]</p>
+        <p style="font-size: 1.5rem">
+          You've been doing the work of 3 people, <br />
+          and it's time to take a break. <br />
+          Don't say you're too busy <br />
+          Or other excuses make.
+        </p>
+        <p style="font-size: 1.5rem">
+          Come to sunny Phoenix, <br />
+          and hang out with your peers. <br />
+          Reconnect with your community. <br />
+          and even grab a few beers.
+        </p>
+        <p style="font-size: 1.5rem">
+          We've made some huge improvements, <br />
+          With ideas from folks like you. <br />
+          From fresh content, to extra collaboration time, <br />
+          Even a fun new mascot named Who!
+        </p>
+        <p style="font-size: 1.5rem">
+          So beg for the budget and time if you have to, <br />
+          Tell your boss to come along too. <br />
+          Phoenix is going to be rockin this March, <br />
+          But it won't be the same without you.
+        </p>
+        <h3 style="font-size: 1.5rem">EARLY BIRD ENDS FRIDAY JANUARY 19th.</h3>
+        <button
+          style="
+            background: red;
+            height: 4rem;
+            width: 15rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-bottom: 5rem;
+            z-index: 2;
+            margin-top: 5rem;
+            outline: none;
+            border: none;
+          "
+        >
+          REGISTER NOW
+        </button>
+      </div>
+    </div>
+    <!-- footer component -->
+
+    <div style="margin-top: 10rem">
+      <div
+        style="
+          background: #e2e2e2;
+          height: 15rem;
+          position: relative;
+          padding-right: 15rem;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            width: 25rem;
+            height: 18rem;
+            bottom: 0;
+            left: 15rem;
+            box-shadow: -40px 6rem 15px rgba(0, 0, 0, 0.5);
+          "
+        >
+          <img
+            src="hero-img.jpg"
+            alt="footer img"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+        </div>
+        <div>
+          <h3 style="font-size: 2rem; color: #302563; margin-bottom: 1rem">
+            Give This <br />
+            To Your Boss
+          </h3>
+          <button
+            style="
+              background: transparent;
+              color: #302563;
+              font-weight: bold;
+              font-size: 1rem;
+              border: 2px solid #302563;
+              border-radius: 30px;
+              height: 3rem;
+              width: 12rem;
+              outline: none;
+            "
+          >
+            DOWNLOAD PDF
+          </button>
+        </div>
+      </div>
+      <div
+        style="
+          background: #302563;
+          color: white;
+          height: 10rem;
+          font-size: 1.5rem;
+          text-align: center;
+          padding-top: 2rem;
+          position: relative;
+          z-index: 10;
+        "
+      >
+        Got questions? Just email us back. We're here to help.
       </div>
     </div>
   </body>
